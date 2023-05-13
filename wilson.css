@@ -30,7 +30,19 @@ time, mark, audio, video {
 body {
     line-height:1;
 }
-
+<style>
+		h2{
+			color: black;
+			text-align: center;
+		font-size: 68px;
+		}
+		h1{
+			color: red; 
+			text-align: center;
+			font-size: 68px;
+		}
+		
+	</style>
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
     display:block;
