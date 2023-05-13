@@ -41,6 +41,9 @@ body {
 			text-align: center;
 			font-size: 68px;
 		}
+		table {
+			margin: 0 auto;
+		}
 		
 	</style>
 article,aside,details,figcaption,figure,
