@@ -13,13 +13,15 @@ html {
     vertical-align:baseline;
     background:cornsilk;
 }
-@font-face{
+@font-face {
 family:quicksand ;
 src: url('quicksand-regular.woff') format ('woff'),
 src: url('quicksand-regular.ttf') format ('truetype');
 }
+
 body {
     line-height:2;
+font family:Verdana, Geneva, sans-serif;
 }
 <style>
 		h2{
