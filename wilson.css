@@ -23,30 +23,33 @@ body {
     line-height:2;
 font family:Verdana, Geneva, sans-serif;
 }
-<style>
+	<style>
 		h2{
 			color: Sienna;
 			text-align: center;
 			font-size: 68px;
+                        font-family: Verdana, Geneva, sans-serif;
 			
 		}
 		h1{
 			color: Sienna; 
 			text-align: center;
 			font-size: 118px;
+                        font-family: Verdana, Geneva, sans-serif;
 		}
 
 		table {
 			margin: 0 auto;
 		}
-	       div {
-                font-size: 1.5em;
-                padding: 20px;
-                border-width: 9px;
-                border-style: solid;
-                border-color: Green;
-  }	
-	</style>
+               tr, td {
+                       border: 10px solid Sienna;
+                       padding: 50px;
+                       text-align: center;
+ }
+html, body {
+    border: 10px solid black;
+}
+</style>
 
 nav ul {
     list-style:none;
