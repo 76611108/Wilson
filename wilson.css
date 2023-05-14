@@ -32,15 +32,15 @@ body {
 }
 <style>
 		h2{
-			color: black;
+			color: Sienna;
 			text-align: center;
 			font-size: 68px;
 			
 		}
 		h1{
-			color: red; 
+			color: Sienna; 
 			text-align: center;
-			font-size: 68px;
+			font-size: 118px;
 		}
 		p{
 			color: Saddle Brown; 
@@ -112,7 +112,7 @@ table {
   max-width: 800px; /* adjust to your preference */
 }
 th, td {
-  border: 5px solid Sienna;
+  border: 10px solid Sienna;
   padding: 50px;
   text-align: center;
 }
