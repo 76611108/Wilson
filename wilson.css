@@ -34,15 +34,19 @@ body {
 		h2{
 			color: black;
 			text-align: center;
-		font-size: 68px;
+			font-size: 68px;
+			family font: Comic Sans MS;
+			
 		}
 		h1{
 			color: red; 
 			text-align: center;
 			font-size: 68px;
+			family font: Comic Sans MS;
 		}
 		table {
 			margin: 0 auto;
+			family font: Comic Sans MS;
 		}
 		
 	</style>
