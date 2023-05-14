@@ -13,7 +13,11 @@ html {
     vertical-align:baseline;
     background:cornsilk;
 }
-
+@font-face{
+family:quicksand ;
+src: url('quicksand-regular.woff') format ('woff'),
+src: url('quicksand-regular.ttf') format ('truetype');
+}
 body {
     line-height:2;
 }
