@@ -108,7 +108,7 @@ table {
   width: 100%;
   max-width: 800px; /* adjust to your preference */
 }
-th, td {
+tr, td {
   border: 10px solid Sienna;
   padding: 50px;
   text-align: center;
