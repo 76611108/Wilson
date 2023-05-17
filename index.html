@@ -6,35 +6,69 @@
 	<meta name="keywords" content="Wilson's Kitchen, organic,food"/>
 	<link rel="stylesheet" href="wilson.css">
 	<style>
+html {
+    margin:20px;
+    padding:0;
+    border:20;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:black;
+}
+p{
+color:white;
+}
 		h2{
-			color: Sienna;
+			color: white;
 			text-align: center;
 			font-size: 68px;
-                        font-family: Verdana, Geneva, sans-serif;
+                        font-family: brushscriptmt;
 			
 		}
 		h1{
-			color: Sienna; 
+			color: WHITE; 
 			text-align: center;
 			font-size: 118px;
-                        font-family: Verdana, Geneva, sans-serif;
+                        font-family: brushscriptmt;
 		}
 		h3{
-			color: Sienna; 
+			color: white; 
 			text-align: center;
 			font-size: 68px;
-                        font-family: Verdana, Geneva, sans-serif;
-		}                     
+                        font-family: brushscriptmt;
+		}  
+		h4{
+			color: white; 
+			text-align: center;
+			font-size: 34px;
+                        font-family:Lucida Handwriting;
+		}
+.outer-container {
+  font: 16px sans-serif;
+  background: gold;
+  color: white;
+  height: 100px;
+  display: flex;
+}
+.box {
+  padding: 10px;
+  flex: 5 0 auto;
+}
+.larger {
+  background: yellowgreen;
+  flex: 3 0 auto;
+}  
+                  
 		table {
 			margin: 0 auto;
 		}
                 tr, td {
-                        border: 10px solid Sienna;
+                        border: 10px solid white;
                         padding: 50px;
                         text-align: center;
                  }
                  html, body {
-                 border: 15px solid Sienna;
+                 border: 10px solid grey;
                  }
 			
 * {
@@ -45,14 +79,14 @@
                          max-width: 500px;
                          margin: 0 auto;
                          padding: 20px;
-                         background-color:Sienna;
+                         background-color:white;
                          border-radius: 10px;
                   }
                   label {
                          display: block;
                          font-weight: bold;
                          margin-bottom: 10px;
-	                 color: Cornsilk;
+	                 color: black;
                   }
                          input[type=text], input[type=email], textarea {
                          width: 100%;
@@ -75,8 +109,20 @@
                          font-size: 16px;
                      }
                          input[type=submit]:hover {
-                         background-color: #3e8e41;
+                         backgroundcolor-: #3e8e41;
                      }
+                         footer {
+                         background-color: #777;
+                         padding: 25px;
+                         text-align: left;
+                         color: white;
+}
+.float-left {
+    float: left;
+    padding: 50px;
+    margin: 0 10px 10px 0;
+    background: gold;
+  }
 </style>
 	
 <title>Wilson's Kitchen</title>
@@ -84,21 +130,18 @@
 </head>
 
 <body>
+<center>
+<footer>
+HOME&nbsp; EAT&nbsp; RESTAURANT&nbsp; RETAIL&nbsp; ORDER-IN&nbsp; VOUCHERS
+</footer>
+</center>
 
     <h1>Wilson's Kitchen</h1>
 	
-<address>
 
-    <center><p> &#8226; 4 Bordeaux Close, Westridge, Cape Town &#8226;7748</p></center>
-    <center><p> &#8226; WhatsApp:(074) 555-1151</p></center>
-    <center><p> &#8226; Telephone:(083) 345-3654</p></center>
-    <center><p> &#8226; Email Address: Remi.fernandez16@gmail.com</p></center>
-         
-</address>
 
      <center><img src="Home/Main.png" alt="img"/></center>
 	
-</header>
 
      <h2>What are you looking for?</h2>
 	
@@ -124,7 +167,9 @@
 		
 </nav>
 
-<h2>What are people saying?</h2></br>
+<h3>Some good news</h3>
+<h4>what people say...</h4>
+
 	
 <article>
 
@@ -165,6 +210,27 @@
     <input type="submit" value="Send">
 	
     </form></br>
-	
+<footer><address>
+
+    <p> &#8226; 4 Bordeaux Close, Westridge, Cape Town, 7748</p>     
+   <p> &#8226; WhatsApp:(074) 555-1151</p>
+    <p> &#8226; Telephone:(083) 345-3654</p>
+    <p> &#8226; Email Address: Remi.fernandez16@gmail.com</p>
+         
+</address>
+</footer>
+<div class="float-left">
+  <img src="Home/stars2.jpeg" alt="img"/>
+</div>
+<p>Our Story</p>
+<p>Welcome to Wilson's Kitchen, a culinary destination in Cape Town where organic food, culinary excellence, and sustainability converge. Our menu showcases the best of locally sourced, organic ingredients, carefully crafted by our talented chefs to create flavorful and nourishing dishes. We are committed to promoting well-being, reducing our environmental impact, and fostering a community that values responsible farming. Step into our warm and inviting space, where every meal tells a story of nature's bounty and the shared joy of organic dining. We can't wait to share our passion for wholesome cuisine with you at Wilson's Kitchen.</p>
+
+
+<div class="outer-container">
+  <div class="box"><img src="Home/stars2.jpeg" alt="img"/></div>
+  <div class="box larger"><img src="Home/stars2.jpeg" alt="img"/></div>
+  <div class="box"><img src="Home/stars2.jpeg" alt="img"/></div>
+  <div class="box larger"><img src="Home/stars2.jpeg" alt="img"/></div>
+</div>
 </body>
 </html>
