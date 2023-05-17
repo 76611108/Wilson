@@ -1,6 +1,6 @@
 /*
 New perspectives on HTML5 and CSS3, 7th Edition 
-Last Updated: 2023-05-14
+Last Updated: 2023-05-17
 Author: Remi Fernandez- http://github.com/76611108/Wilson
 File name:wilson.css
 */
@@ -14,14 +14,9 @@ html {
     background:cornsilk;
 }
 @font-face {
-family:quicksand ;
-src: url('quicksand-regular.woff') format ('woff'),
-src: url('quicksand-regular.ttf') format ('truetype');
-}
-
 body {
     line-height:2;
-font family:Verdana, Geneva, sans-serif;
+     font family:Verdana, Geneva, sans-serif;
 }
 	<style>
 		h2{
@@ -45,15 +40,11 @@ font family:Verdana, Geneva, sans-serif;
                        border: 10px solid Sienna;
                        padding: 50px;
                        text-align: center;
- }
-html, body {
+    }
+    html, body {
     border: 10px solid Sienna;
 }
 
-* {
-        box-sizing: border-box;
-        font-family: Arial, sans-serif;
-      }
       form {
         max-width: 500px;
         margin: 0 auto;
@@ -96,36 +87,6 @@ nav ul {
     list-style:none;
 }
 
-blockquote, q {
-    quotes:none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
-}
- 
-
-/* change colours to suit your needs */
-ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
-}
-
-/* change colours to suit your needs */
-mark {
-    background-color:#ff9;
-    color:#000;
-    font-style:italic;
-    font-weight:bold;
-}
-
-del {
-    text-decoration: line-through;
-}
-
 .table-container {
   display: flex;
   justify-content: center;
@@ -141,15 +102,6 @@ tr, td {
   text-align: center;
 }
 
-/* change border colour to suit your needs */
-hr {
-    display:block;
-    height:1px;
-    border:10px;  
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
-}
 
 input, select {
     vertical-align:middle;
