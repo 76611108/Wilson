@@ -1,0 +1,262 @@
+html {
+
+    margin: 20px;
+
+    padding: 0;
+
+    border: 20;
+
+    outline: 0;
+
+    font-size: 100%;
+
+    vertical-align: baseline;
+
+    background: black;
+
+}
+
+ 
+
+p {
+
+    color: white;
+
+}
+
+ 
+
+h2 {
+
+    color: white;
+
+    text-align: center;
+
+    font-size: 68px;
+
+    font-family: brushscriptmt;
+
+}
+
+ 
+
+h1 {
+
+    color: white;
+
+    text-align: center;
+
+    font-size: 118px;
+
+    font-family: brushscriptmt;
+
+}
+
+ 
+
+h3 {
+
+    color: white;
+
+    text-align: center;
+
+    font-size: 68px;
+
+    font-family: brushscriptmt;
+
+}
+
+ 
+
+h4 {
+
+    color: white;
+
+    text-align: center;
+
+    font-size: 34px;
+
+    font-family: "Lucida Handwriting";
+
+}
+
+ 
+
+table {
+
+    margin: 0 auto;
+
+}
+
+ 
+
+tr,
+
+td {
+
+    border: 15px solid gold;
+
+    padding: 50px;
+
+    text-align: center;
+
+}
+
+ 
+
+html,
+
+body {
+
+    border: 10px solid grey;
+
+}
+
+ 
+
+* {
+
+    box-sizing: border-box;
+
+    font-family: sans-serif, sans-serif;
+
+}
+
+ 
+
+form {
+
+    max-width: 500px;
+
+    margin: 0 auto;
+
+    padding: 20px;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+}
+
+ 
+
+label {
+
+    display: block;
+
+    font-weight: bold;
+
+    margin-bottom: 10px;
+
+    color: black;
+
+}
+
+ 
+
+input[type="text"],
+
+input[type="email"],
+
+textarea {
+
+    width: 100%;
+
+    padding: 10px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    margin-bottom: 20px;
+
+    font-size: 16px;
+
+}
+
+ 
+
+textarea {
+
+    height: 150px;
+
+}
+
+ 
+
+input[type="submit"] {
+
+    background-color: #4caf50;
+
+    color: Sienna;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+}
+
+ 
+
+input[type="submit"]:hover {
+
+    background-color: #3e8e41;
+
+}
+
+ 
+
+footer {
+
+    background-color: #777;
+
+    padding: 25px;
+
+    border: none;
+
+    border: 8px solid black;
+
+    text-align: left;
+
+    color: white;
+
+}
+
+ 
+
+footer a {
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+ 
+
+footer a:hover {
+
+    color: gold;
+
+}
+
+ 
+
+.float-left {
+
+    float: left;
+
+    padding: 50px;
+
+    margin: 0 15px 15px 0;
+
+    background: gold;
+
+}
+
