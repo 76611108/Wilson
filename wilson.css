@@ -21,7 +21,7 @@ html, body {
  
 
 .title {
-  font-family: 'Century Gothic', Helvetica, sans-serif;
+  font-family: Century Gothic, Helvetica, sans-serif;
 }
 
 p{
@@ -183,6 +183,8 @@ footer a {
     color: white;
 
     text-decoration: none;
+    
+    font-family: brushscriptmt;
 
 }
 
