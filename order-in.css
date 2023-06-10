@@ -1,121 +1,99 @@
 html {
 
-    margin: 20px;
+    margin:10px;
 
-    padding: 0;
+    padding:0;
 
-    border: 20px;
+    border:20;
 
-    outline: 0;
+    outline:0;
 
-    font-size: 100%;
+    font-size:100%;
 
-    vertical-align: baseline;
+    vertical-align:baseline;
 
-    background: black;
+    background:black;
 
 }
-
  
 
 html, body {
     border: 10px solid grey;
 }
+ 
+
+        p {
+
+            color: white;
+
+        }
 
  
 
-p {
+        h1 {
 
-    color: white;
+            color: white;
 
-}
+            text-align: center;
 
- 
+            font-size: 45px;
 
-h1 {
+            font-family: brushscriptmt;
 
-    color: white;
-
-    text-align: center;
-
-    font-size: 45px;
-
-    font-family: brushscriptmt;
-
-}
+        }
 
  
 
-footer {
+        footer {
 
-    background-color: #777;
+            background-color: #777;
 
-    padding: 25px;
+            padding: 25px;
 
-    border: none;
+            border: none;
 
-    border: 8px solid black;
+            border: 8px solid black;
 
-    text-align: left;
+            text-align: left;
 
-    color: white;
+            color: white;
 
-}
-
- 
-
-footer a {
-
-    color: white;
-
-    text-decoration: none;
-
-}
+        }
 
  
 
-footer a:hover {
+        footer a {
 
-    color: gold;
+            color: white;
 
-}
+            text-decoration: none;
 
- 
-
-.fixed-image {
-
-    position: fixed;
-
-    top: 0;
-
-    left: 0;
-
-    width: 100%;
-
-    z-index: 999;
-
-}
+        }
 
  
 
-/* Additional CSS rule for Our Menu section */
+        footer a:hover {
 
-center div h2,
+            color: gold;
 
-center div p {
+        }
 
-    color: white;
+        center div h2,
 
-}
+        center div p {
+
+            color: white;
+
+        }
+
+        center div:hover h2,
+
+        center div:hover {
+
+            color: gold;
+
+        }
+
 
  
 
-/* CSS rule for hovering Our Menu section */
-
-center div:hover h2,
-
-center div:hover {
-
-    color: gold;
-
-}
