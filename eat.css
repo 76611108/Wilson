@@ -74,24 +74,19 @@ table {
 
   margin: 0 auto;
 
-}
+  body {
+    background-color: black;
+    color: white;
+  }
 
   .float-left {
     float: left;
-    margin-right: 10px;
-
-}
-  .image-description {
-    display: inline-block;
-    vertical-align: top;
+    margin-right: 10px; /* Adjust the margin as needed */
   }
-
-html, body {
-
-  border: 10px solid grey;
-
-}
-
+  
+  .clear {
+    clear: both;
+  }
  
 
 * {
