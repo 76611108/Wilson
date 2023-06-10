@@ -179,7 +179,14 @@ footer a:hover {
   font-family: Arial, sans-serif;
 
 }
+   
+dl {
+  font-size: 25px; /* Adjust the font size as desired */
+}
 
+dl dt, dl dd {
+  font-size: 20px; /* Adjust the font size as desired */
+}
  
 
 .fixed-image {
