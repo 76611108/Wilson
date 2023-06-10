@@ -8,7 +8,7 @@
 
 Assignment1
 
-General Information about Wilson'S Kitchen
+General Information about Wilson's Kitchen
 
 Author: Remi Fernandez
 
@@ -22,9 +22,212 @@ Filename: eat.html
 
 <link rel="stylesheet" href="eat.css">
 
-<title>Wilson's Kitchen</title> 
+<style>
+
+html {
+
+    margin: 10px;
+
+    padding: 0;
+
+    outline: 0;
+
+    font-size: 100%;
+
+    vertical-align: baseline;
+
+    background: black;
+
+}
+
+ 
+
+p {
+
+    color: white;
+
+}
+
+ 
+
+h2 {
+
+    color: white;
+
+    text-align: center;
+
+    font-size: 68px;
+
+    font-family: brushscriptmt;
+
+}
+
+ 
+
+h1 {
+
+    color: white;
+
+    text-align: center;
+
+    font-size: 59px;
+
+    font-family: brushscriptmt;
+
+}
+
+ 
+
+h3 {
+
+    color: white;
+
+    text-align: center;
+
+    font-size: 68px;
+
+    font-family: brushscriptmt;
+
+}
+
+ 
+
+table {
+
+    margin: 0 auto;
+
+}
+
+ 
+
+html, body {
+
+    border: 10px solid grey;
+
+}
+
+ 
+
+* {
+
+    box-sizing: border-box;
+
+                        font-family: brushscriptmt;
+}
+
+ 
+
+textarea {
+
+    height: 150px;
+
+}
+
+ 
+
+input[type=submit]:hover {
+
+    background-color: #3e8e41;
+
+}
+
+ 
+
+footer {
+
+    background-color: #777;
+
+    padding: 25px;
+
+    border: 8px solid black;
+
+    text-align: left;
+
+    color: white;
+
+}
+
+ 
+
+footer a {
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+ 
+
+footer a:hover {
+
+    color: gold;
+
+}
+
+ 
+
+.cards {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-items: flex-start;
+
+    flex-direction: row;
+
+    max-height: 100vh;
+
+}
+
+ 
+
+.cards img {
+
+    margin: 10px;
+
+    border: 3px solid #000;
+
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+
+    max-width: 23vw;
+
+}
+
+ 
+
+.cards figcaption {
+
+    color: white;
+
+    text-align: center;
+
+    font-size: 20px;
+
+                        font-family: brushscriptmt;
+
+}
+
+    .cards figcaption a:hover {
+      color: gold;
+    }
+ .cards figcaption a {
+    color: white;
+    text-decoration: none;
+}
+
+</style>
+
+ 
+
+<title>Wilson's Kitchen</title>
+
+ 
 
 </head>
+
+ 
 
 <body>
 
@@ -34,41 +237,118 @@ Filename: eat.html
 
         <a href="home.html">HOME</a>&nbsp; &nbsp; &nbsp;
 
-        <a href="eat.html">MENU</a>&nbsp; &nbsp; &nbsp;
+        <a href="eat.html">EAT</a>&nbsp; &nbsp; &nbsp;
 
         <a href="restaurant.html">RESTAURANT</a>&nbsp; &nbsp; &nbsp;
 
         <a href="order-in.html">ORDER-IN</a>&nbsp; &nbsp; &nbsp;
     </center>
 
-</footer> 
-    
+</footer>
+
+ 
+
 <center>
-  <img src="Home/eattwo.webp" alt="img" width="1200" height="800">
+
+   
+
+        <img src="Home/Main.png" alt="img"/>
+
+ 
+
 </center>
+
+
+
+ 
+
+<main class="cards">
+
+    <figure>
+
+        <img src="/pix/samples/23m.jpg" alt="Sample photo">
+
+        <figcaption><a href="salad.html">Salads</a></figcaption>
+
+    </figure>
+
+    <figure>
+
+        <img src="/pix/samples/24m.jpg" alt="Sample photo">
+
+        <figcaption><a href="specials.html">specials</a></figcaption>
+
+    </figure>
+
+    <figure>
+
+        <img src="/pix/samples/22m.jpg" alt="Sample photo">
+
+        <figcaption><a href="specials.html">specials</a></figcaption>
+
+    </figure>
+
+    <figure>
+
+        <img src="/pix/samples/28m.jpg" alt="Sample photo">
+
+        <figcaption><a href="light-meals.html">Light Meals</a></figcaption>
+
+    </figure>
+
+    <figure>
+
+        <img src="/pix/samples/29m.jpg" alt="Sample photo">
+
+        <figcaption><a href="desserts.html">Desserts</a></figcaption>
+
+    </figure>
+
+    <figure>
+
+        <img src="/pix/samples/30m.jpg" alt="Sample photo">
+
+        <figcaption><a href="drinks.html">Drinks</a></figcaption>
+
+    </figure>
+
+    <figure>
+
+        <img src="/pix/samples/27m.jpg" alt="Sample photo">
+
+        <figcaption><a href="home.html">Bambini</a></figcaption>
+
+    </figure>
+
+    <figure>
+
+        <img src="/pix/samples/32m.jpg" alt="Sample photo">
+
+        <figcaption><a href="specials.html">specials</a></figcaption>
+
+    </figure>
+
+    <figure>
+
+        <img src="/pix/samples/33m.jpg" alt="Sample photo">
+
+        <figcaption><a href="alcohol.html">Alcohol</a></figcaption>
+
+    </figure>
+
+</main>
+
  
 <div class="float-left">
-  <img src="Menu Images/greensalad.jpg" alt="Green Salad" style="width: 200px; height: 200px;">
-</div>
-<div>
-  <dl>
-    <dt>Green Salad</dt>
-    <dd>Mixed Greens, Spinach, Arugula, Fresh Herbs, Vegetables, Avocado, Nuts and Seeds, Cheese, Dressing</dd>
-  </dl>
-</div>
-
-<div class="float-left">
-  <img src="Menu Images/capresesalad.jpg" alt="Caprese Salad" style="width: 200px; height: 200px;">
-</div>
-<div>
-  <dl>
-    <dt>Caprese Salad</dt>
-    <dd>Tomatoes, Mozzarella, Basil, Balsamic Vinegar, Olive Oil, Salt, Pepper</dd>
-  </dl>
-</div>
-
+ <img src="menu images/ capresesalad.jpg" alt="img">
+    <dl>
+<dt>Caprese Salad </dt>
+        <dd>Tomatoes, Mozzarella, Basil, Balsamic Vinegar, Olive Oil, Salt, Pepper</dd>
+    </dl>
+    </div>
 </body>
 
 </html>
+
 
 
