@@ -72,32 +72,6 @@ font-size: 34px;
 
 }
 
-                 
-
-table {
-
-margin: 0 auto;
-
-}
-
-                tr, td {
-
-                        border: 15px solid gold;
-
-                        padding: 50px;
-
-                        text-align: center;
-
-                 }
-
-                 html, body {
-
-                 border: 10px solid grey;
-
-                 }
-
- 
-
 * {
 
                          box-sizing: border-box;
