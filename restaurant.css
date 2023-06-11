@@ -69,6 +69,11 @@ margin: 0 auto;
                  html, body {
 
                  border: 10px solid grey;
+     img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid black;
+    }
 
                  }
 
