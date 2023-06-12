@@ -60,7 +60,7 @@ font-family: Georgia;
 
             border: 8px solid black;
 
-            text-align: left;
+            text-align: center;
 
             color: white;
             
@@ -73,7 +73,7 @@ font-family: Georgia;
         footer a {
 
             color: white;
-
+              text-align: center;
             text-decoration: none;
             font-family: brushscriptmt;
 
@@ -103,7 +103,6 @@ font-family: Georgia;
             color: gold;
             
 
-        }
 .slidecontainer {
   width: 75%;
   margin-top: 20px;
@@ -132,9 +131,10 @@ font-family: Georgia;
   cursor: pointer;
 }
 
-p {
+.slider p {
   margin-top: 50%;
   opacity: 0.7;
+  position: relative;
 }
 
 .slider::after {
@@ -142,8 +142,8 @@ p {
   color: white;
   font-size: 2rem;
   position: absolute;
-  left: 80%;
-  top: 27%;
+  left: 90%;
+  top: -40px;
 }
 
 .slider::before {
@@ -151,11 +151,9 @@ p {
   color: white;
   font-size: 2rem;
   position: absolute;
-  left: 12%;
-  top: 27%;
+  left: -10px;
+  top: -40px;
 }
-
-
 
 
  
