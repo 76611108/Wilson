@@ -142,7 +142,7 @@ font-family: Georgia;
   top: -30px;
   left: 0;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .slider p::after {
@@ -154,7 +154,7 @@ font-family: Georgia;
 .slider::after {
   content: attr(max);
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
   position: absolute;
   right: 0;
   top: -30px;
@@ -163,7 +163,7 @@ font-family: Georgia;
 .slider::before {
   content: attr(min);
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
   position: absolute;
   left: 0;
   top: -30px;
