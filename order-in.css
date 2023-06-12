@@ -114,11 +114,11 @@ font-family: Georgia;
   height: auto;
 }
  
-            
 
 .slidecontainer {
   width: 75%;
-  margin-top: 30px;
+  margin-top: 20px;
+  position: relative; /* Add position: relative to the slider container */
 }
 
 .slider {
@@ -145,29 +145,31 @@ font-family: Georgia;
 }
 
 .slider p {
-  margin-top: 50%;
-  opacity: 0.7;
-  position: relative;
+  position: absolute;
+  top: -30px; /* Adjust the top value as needed */
+  color: white;
+  font-size: 2rem; /* Adjust the font size as needed */
+}
+
+.slider p::after {
+  content: attr(data-value); /* Display the value of the slider */
 }
 
 .slider::after {
   content: "100";
   color: white;
-  font-size: 2rem;
-  position: right;
-  left: 90%;
-  top: -40px;
+  font-size:2em; /* Adjust the font size as needed */
+  position: absolute;
+  right: 0; /* Position it at the right end of the slider */
+  top: -30px; /* Adjust the top value as needed */
 }
 
 .slider::before {
   content: "0";
   color: white;
-  font-size: 2rem;
-  position: left;
-  left: -10px;
-  top: -40px;
+  font-size:2rem; /* Adjust the font size as needed */
+  position: absolute;
+  left: 0; /* Position it at the left end of the slider */
+  top: -30px; /* Adjust the top value as needed */
 }
-
-
- 
 
