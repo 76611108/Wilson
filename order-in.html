@@ -4,175 +4,70 @@
 
 <html>
 
- 
-
 <head>
-
- 
-
-    <!-- New perspectives on HTML5 and CSS3, 7th edition
-
- 
-
-    Assignment1
-
- 
-
-    General Information about Wilson's Kitchen
-
- 
-
-    Author: Remi Fernandez
-
- 
-
-    Filename: Order-in.html -->
-
- 
-
- 
-
-    <meta charset="UTF-8"/>
-
- 
-
-    <meta name="keywords" content="Wilson's Kitchen, organic,food"/>
-
- 
-
-    <link rel="stylesheet" href="order-in.css">
- 
- <script src="main.js"></script>
-
- 
-
-    <title>Wilson's Kitchen</title>
-
+  <meta charset="UTF-8" />
+  <meta name="keywords" content="Wilson's Kitchen, organic, food" />
+  <link rel="stylesheet" href="order-in.css">
+  <script src="main.js"></script>
+  <title>Wilson's Kitchen</title>
+  <style>
+    body {
+      margin: 0;
+      padding-bottom: 50px; /* Add bottom padding to make space for the slider */
+    }
+    
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #f9f9f9;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .slidecontainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .slider {
+      width: 80%;
+      margin: 0 10px;
+    }
+  </style>
 </head>
 
- 
-
 <body>
-
- 
-
-   <footer>
-
- 
-
-     <center>
-
-         
-
-         <style> font-family: brushscriptmt;
-
-         
-
-         </style>
-
- 
-
- 
-
-        <a href="home.html">HOME</a>&nbsp; &nbsp; &nbsp;
-
- 
-
-        <a href="eat.html">MENU</a>&nbsp; &nbsp; &nbsp;
-
- 
-
-        <a href="restaurant.html">RESTAURANT</a>&nbsp; &nbsp; &nbsp;
-
- 
-
-        <a href="order-in.html">ORDER-IN</a>&nbsp; &nbsp; &nbsp;
-
- 
-
-     </center>
-
- 
-
+  <footer>
+    <a href="home.html">HOME</a>&nbsp;&nbsp;&nbsp;
+    <a href="eat.html">MENU</a>&nbsp;&nbsp;&nbsp;
+    <a href="restaurant.html">RESTAURANT</a>&nbsp;&nbsp;&nbsp;
+    <a href="order-in.html">ORDER-IN</a>&nbsp;&nbsp;&nbsp;
   </footer>
 
- 
+  <center>
+    <img src="Home/order_in.jpg" alt="img" />
+  </center>
 
-</center>
+  <center>
+    <h1>Take Us Home</h1>
+  </center>
 
- 
+  <center>
+    <a href="eat.html">Our Menu</a>
+    <p>Welcome to Wilson's Kitchen! Explore our delicious menu featuring organic and wholesome food options. From appetizers to desserts, we have something for everyone. Don't miss out on our signature dishes made with fresh, locally sourced ingredients.</p>
+    <p>Check out our menu and get ready to satisfy your taste buds!</p>
+    <p>Visit our menu page to explore the full range of appetizing options.</p>
+    <p>OPEN FOR BOTH INDOOR AND OUTDOOR DINING.</p>
+  </center>
 
- 
-
- 
-
-<center>
-
-    <img src="Home/order_in.jpg" alt="img"/>
-
-</center>      
-
- 
-
- 
-
- 
-
-<center>
-
- 
-
-   <h1>Take Us Home</h1>
-
- 
-
-</center>
-
- 
-
- 
-
- 
-
-<center>
-
- 
-
-  <a href="eat.html">Our Menu</a>
-
- 
-
- 
-
-         <p>Welcome to Wilson's Kitchen! Explore our delicious menu featuring organic and wholesome food options. From appetizers to desserts, we have something for everyone. Don't miss out on our signature dishes made with fresh, locally sourced ingredients.</p>
-
- 
-
-         <p>Check out our menu and get ready to satisfy your taste buds!</p>
-
- 
-
-         <p>Visit our menu page to explore the full range of appetizing options.</p>
-
- 
-
-         <p>OPEN FOR BOTH INDOOR AND OUTDOOR DINING.</p>
-
-      </div>
-
-</center>
-
-<center>
- 
-<footer>
- 
-<div class="slidecontainer">
-  <input type="range" min="1" max="100" value="1" id="myrange" class="slider">
-  <p>Value: <span id="value"></span></p>
-</div>
- 
- </footer>
-</center>
+  <footer>
+    <div class="slidecontainer">
+      <input type="range" min="1" max="100" value="1" id="myrange" class="slider">
+      <p>Value: <span id="value"></span></p>
+    </div>
+  </footer>
 
 </body>
 
