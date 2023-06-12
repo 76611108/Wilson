@@ -118,7 +118,7 @@ font-family: Georgia;
 
 .slidecontainer {
   width: 75%;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .slider {
@@ -154,7 +154,7 @@ font-family: Georgia;
   content: "100";
   color: white;
   font-size: 2rem;
-  position: absolute;
+  position: right;
   left: 90%;
   top: -40px;
 }
@@ -163,7 +163,7 @@ font-family: Georgia;
   content: "0";
   color: white;
   font-size: 2rem;
-  position: absolute;
+  position: left;
   left: -10px;
   top: -40px;
 }
