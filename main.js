@@ -5,5 +5,4 @@ value.textContent = range.value;
 
 range.addEventListener('input', function() {
   value.textContent = this.value;
-  value.setAttribute('data-value', this.value);
 });
