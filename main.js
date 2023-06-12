@@ -1,11 +1,9 @@
+const range = document.getElementById('myrange');
+const value = document.getElementById('value');
 
-var slider = document.getElementById("myrange");
+value.textContent = range.value;
 
-
-var valueDisplay = document.getElementById("value");
-
-
-slider.addEventListener("input", function() {
-  valueDisplay.textContent = slider.value;
+range.addEventListener('input', function() {
+  value.textContent = this.value;
+  value.setAttribute('data-value', this.value);
 });
-
