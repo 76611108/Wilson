@@ -102,6 +102,19 @@ font-family: Georgia;
 
             color: gold;
             
+  }
+
+.image-container {
+  max-width: 100%;
+  border: 1px solid black;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+ 
+            
 
 .slidecontainer {
   width: 75%;
