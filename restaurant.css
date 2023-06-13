@@ -59,10 +59,26 @@ font-size: 45px;
                         font-family: brushscriptmt;
 
 }            
-
 table {
+  border-collapse: collapse;
+  width: 100%;
+}
 
-margin: 0 auto;
+td {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: center;
+}
+
+td.heading {
+  font-weight: bold;
+  text-align: center;
+}
+
+td.content {
+  text-align: center;
+  font-family: Brush Script MT, cursive;
+}
 
                  }
 
