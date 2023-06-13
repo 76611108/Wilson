@@ -1,11 +1,12 @@
+document.addEventListener("DOMContentLoaded", function() {
+  var slider = document.getElementById("myrange");
+  var value = document.getElementById("value");
 
-// Get the slider input element
-var slider = document.getElementById("myrange");
+  // Display the initial value
+  value.innerHTML = slider.value;
 
-// Get the value display element
-var valueDisplay = document.getElementById("value");
-
-// Update the value display when the slider value changes
-slider.addEventListener("input", function() {
-  valueDisplay.textContent = slider.value;
+  // Update the value as the slider is moved
+  slider.addEventListener("input", function() {
+    value.innerHTML = this.value;
+  });
 });
