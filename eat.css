@@ -36,7 +36,7 @@ h2 {
 
   font-size: 68px;
 
-  font-family: brushscriptmt;
+  font-family: Serif;
 
 }
 
@@ -50,7 +50,7 @@ h1 {
 
   font-size: 59px;
 
-  font-family: brushscriptmt;
+  font-family: Serif;
 
 }
 
@@ -64,7 +64,7 @@ h3 {
 
   font-size: 68px;
 
-  font-family: brushscriptmt;
+  font-family: Serif;
 
 }
 
@@ -176,17 +176,16 @@ footer a:hover {
 
   font-size: 20px;
 
-  font-family: Arial, sans-serif;
+  font-family: Serif, 
 
 }
    
 dl {
-  font-size: 25px; /* Adjust the font size as desired */
+  font-size: 25px; 
 }
 
 dl dt, dl dd {
-  font-size: 20px; /* Adjust the font size as desired */
-}
+  font-size: 20px; 
  
 
 .fixed-image {
