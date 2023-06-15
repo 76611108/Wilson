@@ -12,8 +12,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-
-<script>
   const menuSelect = document.getElementById('menu-select');
   const menuItems = document.querySelectorAll('.menu-item');
 
@@ -28,4 +26,4 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
   });
-</script>
+
