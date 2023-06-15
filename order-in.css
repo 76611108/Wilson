@@ -25,7 +25,7 @@ html {
 html, body {
     border: 10px solid grey;
       
-font-family: Georgia; 
+font-family: Serif; 
      font-size: 25px; 
     
          
@@ -49,7 +49,7 @@ font-family: Georgia;
 
          font-size: 118px;
 
-          font-family: Cedarville Cursive;
+          font-family: Serif;
 
         }
 
@@ -61,7 +61,7 @@ font-family: Georgia;
 
          font-size: 118px;
 
-          font-family: brushscript;
+          font-family: Serif;
 
         }
 
@@ -82,7 +82,7 @@ font-family: Georgia;
 
             color: white;
             
-             font-family: brushscriptmt;
+             font-family: Serif;
             font-size: 15px;
 
         }
@@ -94,7 +94,7 @@ font-family: Georgia;
             color: white;
               text-align: center;
             text-decoration: none;
-            font-family: brushscriptmt;
+            font-family: Serif;
             
 
         }
@@ -104,7 +104,7 @@ font-family: Georgia;
         footer a:hover {
 
             color: gold;
-            font-family: brushscriptmt;
+            font-family: Serif;
 
         }
 
