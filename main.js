@@ -10,3 +10,22 @@ document.addEventListener("DOMContentLoaded", function() {
     value.innerHTML = this.value;
   });
 });
+
+
+
+<script>
+  const menuSelect = document.getElementById('menu-select');
+  const menuItems = document.querySelectorAll('.menu-item');
+
+  menuSelect.addEventListener('change', () => {
+    const selectedCategory = menuSelect.value;
+    menuItems.forEach(item => {
+      const itemCategory = item.getAttribute('data-category');
+      if (selectedCategory === 'all' || selectedCategory === itemCategory) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  });
+</script>
