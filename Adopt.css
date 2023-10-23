@@ -57,6 +57,6 @@
 
         /* Style for the image within each block */
         .info-block img {
-            max-width: 100%; /* Ensure the image fits within the container */
-             border-radius: 50px;
+            max-width: 50px; /* Ensure the image fits within the container */
+             border-radius: 25px;
         }
