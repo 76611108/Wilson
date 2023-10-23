@@ -28,7 +28,7 @@
 
         /* Style for each individual info block */
         .info-block {
-            border: 5px solid #000; /* Add a black border */
+            border: 3px solid #000; /* Add a black border */
              border-radius: 20px;
             padding: 30px;
             text-align: center;
@@ -37,8 +37,8 @@
 
         /* Style for the image within each block */
         .info-block img {
-            max-width: 100%; /* Ensure the image fits within the container */
-          border-radius: 50px;
+            max-width: 50px; /* Ensure the image fits within the container */
+          border-radius: 25px;
         }
         /* Style for the parent container */
         .info-container {
