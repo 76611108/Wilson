@@ -37,8 +37,8 @@
 
         /* Style for the image within each block */
         .info-block img {
-            max-width: 20px; /* Ensure the image fits within the container */
-          border-radius: 10px;
+            max-width: 80px; /* Ensure the image fits within the container */
+          border-radius: 40px;
         }
         /* Style for the parent container */
         .info-container {
@@ -57,6 +57,6 @@
 
         /* Style for the image within each block */
         .info-block img {
-            max-width: 20px; /* Ensure the image fits within the container */
-             border-radius: 10px;
+            max-width: 80px; /* Ensure the image fits within the container */
+             border-radius: 40px;
         }
