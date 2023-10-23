@@ -23,13 +23,13 @@
         .info-container {
             display: flex;
             justify-content: space-between; /* Distribute space between the blocks */
-           border-radius: 20px
+           border-radius: 20px;
         }
 
         /* Style for each individual info block */
         .info-block {
             border: 5px solid #000; /* Add a black border */
-             border-radius: 20px
+             border-radius: 20px;
             padding: 30px;
             text-align: center;
             max-width: 300px; /* Set a maximum width for the block */
@@ -38,7 +38,7 @@
         /* Style for the image within each block */
         .info-block img {
             max-width: 100%; /* Ensure the image fits within the container */
-          border-radius: 50px
+          border-radius: 50px;
         }
         /* Style for the parent container */
         .info-container {
@@ -50,7 +50,7 @@
         /* Style for each individual info block */
         .info-block {
             border: 5px solid #000; /* Add a black border */
-             border-radius: 20px
+             border-radius: 20px;
             text-align: center;
             max-width: 300px; /* Set a maximum width for the block */
         }
@@ -58,5 +58,5 @@
         /* Style for the image within each block */
         .info-block img {
             max-width: 100%; /* Ensure the image fits within the container */
-             border-radius: 50px
+             border-radius: 50px;
         }
