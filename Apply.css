@@ -1,5 +1,5 @@
-    <style>
-     /* Style for the header bar */
+
+
         .header {
             background-color: #333;
             color: #fff;
@@ -7,28 +7,28 @@
             text-align: center;
         }
         
-        /* Style for the navigation links */
+   
         .header a {
             color: #fff;
             text-decoration: none;
             margin: 0 15px;
-            transition: color 0.3s; /* Add a smooth color transition effect */
+            transition: color 0.3s;
         }
 
-        /* Style for the navigation links when hovered */
+    
         .header a:hover {
             color: orange;
         }
-        /* Style for the adoption block */
+    
         .adoption-block {
-            background-color: #0077B6; /* Sea blue background color */
+            background-color: #0077B6; 
             color: #fff;
             padding: 20px;
             text-align: center;
-            display: inline-block; /* Make it an inline block */
+            display: inline-block; 
         }
 
-        /* Style for the image */
+
         .adoption-image {
             display: inline-block; /* Make it an inline block */
             vertical-align: top; /* Align to the top of the text */
@@ -48,5 +48,3 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
-
-    </style>
