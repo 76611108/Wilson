@@ -20,12 +20,16 @@
             color: orange;
         }
 
-    h1,h2, h3 {
+    h1{
   font-family: sans-serif;
   font-size: 50px;
   color: #000000; 
   text-align: center;
   margin-top: 20px;
+            
+}
+h2{
+        font-size: 50px;
 }
         .adoption-block {
             background-color: #0077B6; 
