@@ -56,18 +56,20 @@ h2{
   object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
 
-table {
-  font-family: arial, sans-serif;
+.staircase-table {
   border-collapse: collapse;
   width: 100%;
 }
 
-td, th {
-  border: 1px solid #dddddd;
-  text-align: center;
-  padding: 8px;
+.staircase-table tr:nth-child(odd) {
+  background-color: #EAEAEA; /* Color for odd rows */
 }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
+.staircase-table tr:nth-child(even) {
+  background-color: #CCCCCC; /* Color for even rows */
+}
+
+.staircase-table td {
+  padding: 10px;
+  border: 1px solid #000; /* Add borders for cell separation */
 }
