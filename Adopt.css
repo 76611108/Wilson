@@ -17,6 +17,20 @@
             color: orange;
         }
 
+h1,h2, h3 {
+  font-family: sans-serif;
+  font-size: 50px;
+  color: #000000; 
+  text-align: center;
+  margin-top: 20px;
+}
+h2 {
+  font-size: 24px; 
+}
+h3 {
+  font-size: 18px; 
+}
+
 
         .info-container {
             display: flex;
