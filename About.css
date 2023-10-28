@@ -17,6 +17,10 @@
         .header a:hover {
             color: orange;
         }
+body {
+  font-family: sans-serif;
+}
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
