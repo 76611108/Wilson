@@ -1,6 +1,6 @@
 
 
-        .header {
+.header {
             background-color: #333;
             color: #fff;
             padding: 10px 0;
@@ -8,7 +8,7 @@
         }
         
    
-        .header a {
+.header a {
             color: #fff;
             text-decoration: none;
             margin: 0 15px;
@@ -16,11 +16,11 @@
         }
 
     
-        .header a:hover {
+.header a:hover {
             color: orange;
         }
 
-    h1{
+h1{
   font-family: sans-serif;
   font-size: 50px;
   color: #000000; 
@@ -28,15 +28,18 @@
   margin-top: 20px;
             
 }
+
 h2{
         font-size: 25px;
-}.adoption-container {
+}
+
+.adoption-container {
   display: flex;
   align-items: center;
 }
 
-  p{
-font-size:  20px;
+p{
+  font-size:  20px;
   }
 
 
@@ -45,20 +48,20 @@ font-size:  20px;
   color: #fff;
   padding: 20px;
   text-align: center;
-  flex: 1; /* Grow to take available space */
+  flex: 1; 
   height: 250px;
   font-size: 18px;
 }
 
 .adoption-image {
-  flex: 1; /* Grow to take available space */
+  flex: 1; 
   text-align: center;
 }
 
 .adoption-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  object-fit: cover; 
 }
 
 .staircase-table {
@@ -67,16 +70,16 @@ font-size:  20px;
 }
 
 .staircase-table tr:nth-child(odd) {
-  background-color: #EAEAEA; /* Color for odd rows */
+  background-color: #EAEAEA;
 }
 
 .staircase-table tr:nth-child(even) {
-  background-color: #CCCCCC; /* Color for even rows */
+  background-color: #CCCCCC;
 }
 
 .staircase-table td {
   padding: 30px;
-  border: 0px solid #000; /* Add borders for cell separation */
+  border: 0px solid #000; 
 }
 footer {
  background-color: #333;
